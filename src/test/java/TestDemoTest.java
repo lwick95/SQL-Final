@@ -19,7 +19,7 @@ class TestDemoTest {
 
 	@BeforeEach
 	void setUp() throws Exception {
-		testDemo = new TestDemo();    //may be a possible problem down the road? question 4.a
+		testDemo = new TestDemo();    
 	}
 	
 	static Stream<Arguments> argumentsForAddPositive() {
